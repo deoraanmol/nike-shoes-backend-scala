@@ -1,0 +1,13 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/ADeora/nike/dtl-repos/china-interview/nikebackend/target/scala-2.12/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/ADeora/nike/dtl-repos/china-interview/nikebackend/src/main/scala/com/shoes/nikebackend/FetchShoeData.scala:19:39: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : org.http4s.Header.Raw[0m
+[0m[[0m[31merror[0m] [0m[0m required: org.http4s.Headers[0m
+[0m[[0m[31merror[0m] [0m[0m      Ok(Json.fromString(text), Header("Access-Control-Allow-Origin", "*"))[0m
+[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 3 s, completed Mar 10, 2022 9:25:00 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m
